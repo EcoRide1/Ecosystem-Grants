@@ -1,149 +1,174 @@
 # Name of your Project
 
-> This document will be part of your agreement and therefore needs to contain all the required information about the project. Don't remove any of the mandatory parts presented in bold letters or as headlines (except for the title)! Lines starting with a `>` (such as this one) should be removed. Please use markdown instead of HTML (e.g. `![](image.png)` instead of `<img>`). 
->
-> See the [Grant Program Process](https://github.com/smart-contract-bounty/Wasm-Bounty-01#pencil-process) on how to submit a proposal.
-- **Team Name:** Legal name of your team (e.g. Duo)
-- **Payment Address:** Polkadot payment address.
-
-> :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
+- **Team Name:** EcoRide
+- **Payment Address:** 1RnRrawcyt4M2rkW4WuoNM5idUxNRoMAYU8zELp9zSyzoEN
 
 ## Project Overview :page_facing_up:
+
 ### Overview
 
-Please provide the following:
+**Tagline:**  
+EcoRide Rustavi  e-scooter rental platform.
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to ink! ecosystem.
-- Choosen project idea category or your alternative category with explanation of its importance
-- An indication of why your team is interested in creating this project.
+**Description:**  
+EcoRide Rustavi is an electric scooter rental service built on smart contracts. The system tracks ride data (start time, end time, distance, pricing, and location) directly on-chain. Users rent scooters via a mobile app using fiat payments (e.g. bank card), while blockchain records every ride as a verified transaction. This guarantees transparency, data integrity, and auditability for users and regulators.
+
+**ink! ecosystem relevance:**  
+EcoRide uses ink! smart contracts deployed on a Substrate-based chain to:
+- Record rental sessions
+- Assign and update ride metadata
+- Provide immutable logs for ride history
+
+**Chosen category:**  
+Canary Dapp — A functional and auditable consumer-facing dApp using ink! contracts in a real-world mobility business.
+
+**Team interest:**  
+We are building a real mobility product in Georgia and see blockchain as a unique solution for integrity, accountability, and scalability in transportation services.
+
+---
 
 ### Ink! Ecosystem Impact
 
-Please clearly describe how exactly your project will benefit the ecosystem. If it's infrastructure - how it's going to be applied and by who. If it's canary dapp we would you to clearly demonstrate how this code will be used by other people. If it's technical showcase we would like you to demonstrate how ink! will be promoted using your results. 
+EcoRide Rustavi showcases in a real-world business case. Benefits:
+- Demonstrates ink! smart contracts for real-time microtransactions and data logging.
+- Inspires other smart city or mobility solutions to integrate ink!-based auditing mechanisms.
+- Encourages trust among regulators, investors, and customers through immutable rental data.
 
-If it's a business case we would like to see business model and future production plans. 
+We will open-source key modules such as:
+- Ride recorder contract
+- Pricing calculation module
+- Audit-ready ride explorer dashboard
+
+This will make it easy for other teams to fork and launch similar micro-mobility dApps using ink!.
+
+**Business Model:**  
+- Revenue from per-minute ride charges: ₾1 unlock + ₾0.40/min
+- Target market: Rustavi and other mid-size cities in Georgia
+- Scalability: Expand to new locations + offer platform-as-a-service for other operators
+
+**Production Plans:**  
+- Launch MVP with 100 scooters in Rustavi
+- Integrate smart contract-backed ride logs with user app
+- Partner with municipalities for smart city integrations
+
+---
 
 ### Project Details
 
-We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
+- Core Functionality: ink! smart contracts recording ride data
+- API: JSON-RPC endpoints for mobile app to log sessions on-chain
+- Tech Stack:
+  - Mobile app: Flutter
+  - Backend: Rust + Node.js bridge
+  - Chain: Substrate node + ink! contracts
+- Documentation: Public repo and user documentation
+- Not implementing: crypto payment gateway, tokenomics, or public token sale
 
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
-- CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
-- An overview of the business model, including revenue streams, target market, and scalability, if applicable.
-- Future production plans and growth strategy, highlighting how the project intends to achieve sustainability and long-term success, if applicable.
-
-
-Things that shouldn’t be part of the application:
-- The (future) tokenomics of your project 
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
-
+---
 
 ## Team :busts_in_silhouette:
 
-### Team members
+### Team Members
 
-- Name of team leader
-- Names of team members
+- **Team Leader:** Rati Katamadze
+- **Team Member:** Georgi Kipshidze
 
 ### Contact
 
-- **Contact Name:** Full name of the contact person in your team
-- **Contact Email:** Contact email (e.g. john@duo.com)
-- **Website:** Your website
+- **Contact Name:** Rati Katamadze  
+- **Contact Email:** ratikatamadze26@gmail.com  
+- **Website:** *not available yet*
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** Rustavi, Georgia  
+- **Registered Legal Entity:** EcoRide
 
-### Team's experience
+### Experience
 
-Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
+- Rati: Founder of Middle Corridor Logistics; entrepreneur with experience in mobility and logistics
+- I have hands-on experience managing the construction of residential apartment blocks, including planning and supervising smart building integrations. My background includes coordinating teams, overseeing budgets and timelines, and ensuring modern technologies—such as energy-efficient systems and smart infrastructure—are embedded into the construction process.
 
-### Team Code Repos
+### Team Repos
 
-- https://github.com/<your_organisation>/<project_1>
-- https://github.com/<your_organisation>/<project_2>
+- https://github.com/EcoRide1/Ecosystem-Grants
 
-Please also provide the GitHub accounts of all team members. If they contain no activity, references to projects hosted elsewhere or live are also fine.
+### GitHub Accounts
 
-- https://github.com/<team_member_1>
-- https://github.com/<team_member_2>
+- https://github.com/EcoRide1  
 
-### Team LinkedIn Profiles (if available)
-
-- https://www.linkedin.com/<person_1>
-- https://www.linkedin.com/<person_2>
-
+---
 
 ## Development Status :open_book:
 
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to building this template,
+Currently developing:
+- Ride recording prototype smart contract
+- Flutter app prototype
+- Early tests with ink! contract deployment to local node
+
+---
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**.
-
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** Duration of the whole project (e.g. 2 months)
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the level of funding requested. This and the costs for each milestone need to be provided in USD.
+- **Total Estimated Duration:** 2 months  
+- **Full-Time Equivalent (FTE):** 2  
+- **Total Costs:** 85,000 USD
 
-### Milestone 1 Example — Basic functionality
+---
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+### Milestone 1 — Smart Contract Ride Logging
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
+- **Estimated duration:** 1 month  
+- **FTE:** 1.5  
+- **Costs:** 42,500 USD
 
 | Number | Deliverable | Specification |
-| -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
-| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+|--------|-------------|---------------|
+| 0a. | License | MIT |
+| 0b. | Documentation | Inline docs + dev tutorial |
+| 0c. | Testing Guide | Full unit tests with ride simulation |
+| 0d. | Docker | Dockerfile for test setup |
+| 1. | ink! contract: `RideLog` | Contract to log start/end of rides with user ID, time, location, and price |
+| 2. | ink! contract: `RideHistoryView` | View contract to query all past rides per user |
+| 3. | Admin dashboard (MVP) | Web dashboard to view ride logs from blockchain |
+| 4. | Flutter App Integration (simulated) | App connects to chain and logs simulated rides |
 
+---
 
-### Milestone 2 Example — Additional features
+### Milestone 2 — Production Readiness
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Estimated Duration:** 1 month  
+- **FTE:** 1.5  
+- **Costs:** 42,500 USD
 
-...
+| Number | Deliverable | Specification |
+|--------|-------------|---------------|
+| 0a. | License | MIT |
+| 0b. | Documentation | Final user and developer docs |
+| 0c. | Testing Guide | QA and regression testing for production release |
+| 0d. | Docker | Full system Docker container |
+| 0e. | Article | Blog post on how EcoRide uses ink! |
+| 1. | ink! pricing module | Modular pricing logic for on-chain calculation |
+| 2. | Flutter App (beta) | Testable app with blockchain interaction |
+| 3. | Ride analytics backend | Optional off-chain analytics dashboard pulling from on-chain data |
 
+---
 
 ## Future Plans
 
-Please include here if you have a future plan after building this template in making it in to production.
+- Go live in Rustavi with 100 scooters  
+- Use ink! contracts to log 1,000+ rides/month  
+- Scale to other cities (Tbilisi, Kutaisi)  
+- Release a white-label version of the platform for other operators
+
+---
 
 ## Additional Information :heavy_plus_sign:
 
-**How did you hear about the Bounty Program?** Medium / Twitter / Element / Announcement by another team / personal recommendation / etc.
+**How did you hear about the Bounty Program?**  
+Via GitHub research and Element channels
 
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- Work you have already done.
-- If there are any other teams who have already contributed (financially) to the project.
+**Additional notes:**   
+We’re actively looking for strategic technical and financial partners for long-term scaling.
